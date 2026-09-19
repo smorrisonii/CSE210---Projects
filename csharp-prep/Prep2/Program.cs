@@ -34,6 +34,10 @@ class Program
         {
             sign = "";
         }
+        else if (grade > 93)
+        {
+            sign = "";
+        }
         else if (grade % 10 <= 3)
         {
             sign = "-";
