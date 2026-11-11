@@ -1,7 +1,7 @@
 class Word
 {
     List<bool> _hiddenWords = new List<bool>();
-    int _difficulty;
+    private int _difficulty;
 
     // Initialize the difficulty.
     public Word(int difficulty)
